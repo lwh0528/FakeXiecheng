@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace TouristRoute
+namespace FakeXiecheng.Models
 {
     public  class TouristRoute                          //
     {

@@ -1,4 +1,4 @@
-﻿namespace TouristRoute
+﻿namespace FakeXiecheng.Models
 {
     public enum DepartureCity
     {
