@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Linq;
+using System.Reflection;
 using FakeXiecheng.Database;
 
 namespace ConsoleApp
@@ -7,11 +10,11 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello World!");
-
             var context = new AppDbContext();
             //context.Database.EnsureCreated();
+
+            var c=context.TouristRoutePictures.ToList();
+            
         }
     }
 }
